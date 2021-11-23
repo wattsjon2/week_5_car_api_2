@@ -1,0 +1,65 @@
+/* nav styles */
+
+.ct-nav{
+    display: flex;
+    justify-content:space-between;
+}
+
+/* target main logo image */
+.ct-nav img{
+    width: 30%;
+    max-width:100%;
+    margin-left: 2vw;
+}
+
+ul#horizontal-list{
+    min-width: 696px;
+    list-style: none;
+    padding-top: 20px;
+    
+    
+}
+
+ul#horizontal-list li, ul#horizontal-list a{
+    display: inline;
+    text-decoration: none;
+    padding: 0.5vw;
+    color: black;
+}
+
+ul#horizontal-list a:nth-last-child(1){
+    border: 2px solid blue;
+    border-radius: 11px;
+    margin-right: 0.2vw;
+}
+
+/* End of nav styles */
+
+/* start of hero/header section */
+#header-text{
+    padding:2vw;
+}
+
+.header-image{
+    width: 82%;
+    max-width: 100%;
+}
+
+/* end of hear/header section */
+
+/* start of footer section */
+.footer-text-flex{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vw;
+}
+
+#footer-logo{
+    width:100%;
+    max-width: 100%;
+}
+
+#footer{
+    border-top:3px solid black;
+    margin-top: 20vh;
+}
